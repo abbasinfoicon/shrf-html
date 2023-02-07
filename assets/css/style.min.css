@@ -54,13 +54,20 @@
 ========================================================================*/
 
 body {
-  float: left;
   width: 100%;
   position: relative;
   margin: 0;
   padding: 0;
   font-family: "Gotham Medium";
   font-size: 15px;
+}
+
+@media (min-width: 1920px) {
+  body {
+    max-width: 1903px;
+    margin: 0 auto;
+    background: #fff;
+  }
 }
 
 @media (max-width: 1440px) {
@@ -469,7 +476,7 @@ section {
 
 .menu-sec ul li.btn-menu a {
   font-family: "Gotham Book";
-  font-size: 1.125em;
+  font-size: 1.25em;
 }
 
 .menu-sec ul li.btn-menu a:first-child {
@@ -841,7 +848,11 @@ section {
   }
 }
 
-.home-content .content .item .content-caption .animated-img img {position: relative;right: 25px;top: 25px;}
+.home-content .content .item .content-caption .animated-img img {
+  position: relative;
+  right: 25px;
+  top: 25px;
+}
 
 .home-content .content .item .content-caption .animated-img img.img-text {
   position: absolute;
@@ -850,8 +861,7 @@ section {
 }
 
 @media (max-width: 767px) {
-  .home-content .content .item .content-caption .animated-img img.img-text {
-  }
+  .home-content .content .item .content-caption .animated-img img.img-text {}
 }
 
 .home-image {
@@ -1421,6 +1431,12 @@ img.img-left {}
 .patient-carousel .item .content a:hover {
   color: #171544;
 }
+.patient-carousel .item .content a i {
+  transition: .5s;
+}
+.patient-carousel .item .content a:hover i {
+  margin-left: 5px;
+}
 
 .patient-carousel .owl-nav {
   display: flex;
@@ -1536,7 +1552,7 @@ img.img-left {}
 
 .count-impact .box h3 {
   font-size: 5.5em;
-  color: #fff;
+  color: #f2d6e7;
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -1551,7 +1567,7 @@ img.img-left {}
 
 .count-impact .box p {
   font-size: 1.5em;
-  color: #fff;
+  color: #f2d6e7;
 }
 
 .pos-rel {
@@ -1794,6 +1810,7 @@ img.img-left {}
     transform: rotate(-90deg)
   }
 }
+
 .patient-carousel .item .img-sec img {
   height: 100%;
   object-fit: cover;
