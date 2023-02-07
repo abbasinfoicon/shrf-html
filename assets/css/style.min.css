@@ -1125,18 +1125,6 @@ p span {
   }
 }
 
-@media (min-width: 1314px) {
-  .partner-img .img-style {
-    width: 318px;
-  }
-}
-
-@media (max-width: 1440px) {
-  .partner-img .img-style {
-    width: 285px;
-  }
-}
-
 @media (max-width: 1024px) {
   .partner-img .img-style {
     width: 48%;
