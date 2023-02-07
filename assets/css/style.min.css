@@ -366,7 +366,7 @@ section {
 }
 
 .logo-sec {
-  padding: 30px;
+  padding: 18px 30px;
 }
 
 @media (min-width: 1440px) {
@@ -400,7 +400,7 @@ section {
 .menu-sec ul {
   display: flex;
   align-items: center;
-  padding: 45px 30px;
+  padding: 40px 30px;
   justify-content: space-between;
   padding-left: 100px;
 }
@@ -857,7 +857,6 @@ section {
 }
 
 .home-content .content .item .content-caption .animated-img img {
-  width: 85px;
 }
 
 .home-content .content .item .content-caption .animated-img img.img-text {
@@ -875,14 +874,9 @@ section {
 
 .home-image {
   padding-bottom: 60px;
-  padding-top: 30px;
+  padding-top: 0;
 }
 
-@media (max-width: 1440px) {
-  .home-image {
-    padding-top: 0;
-  }
-}
 @media (max-width: 991px) {
   .home-image {
     padding: 0 !important;
@@ -893,7 +887,7 @@ section {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 20px;
+  bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -902,7 +896,7 @@ section {
 
 .home-image .owl-dots button.owl-dot {
   width: 40px;
-  height: 4px;
+  height: 3px;
   background: #fff;
   border: 12px;
   opacity: 0.5;
@@ -1060,7 +1054,7 @@ p span {
   font-size: 1.25em;
 }
 
-.stay-up .inline-form .form-group input:placeholder{
+.stay-up .inline-form .form-group input:placeholder {
   color: #171544;
   font-family: "Gotham Book";
   font-weight: bold;
@@ -1773,5 +1767,22 @@ img.img-left {}
 
   .right-side {
     width: 70%;
+  }
+}
+
+.animated:hover {
+  -webkit-animation: 2s linear infinite animated
+}
+
+@keyframes animated {
+
+  0%,
+  100% {
+    transform: rotate(90deg)
+  }
+
+  25%,
+  75% {
+    transform: rotate(-90deg)
   }
 }
