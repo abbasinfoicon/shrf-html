@@ -505,6 +505,18 @@ section {
   margin-left: 30px;
 }
 
+.menu-sec ul li.btn-menu .burgur-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-sec ul li.btn-menu .burgur-menu.active span:first-child {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+}
+
+.menu-sec ul li.btn-menu .burgur-menu.active span:last-child {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+}
+
 @media (max-width: 1199px) {
   .menu-sec ul li.btn-menu .burgur-menu {
     margin-left: 15px;

@@ -123,3 +123,7 @@ o1.on('changed.owl.carousel', function (event) {
     o2.trigger('to.owl.carousel', [event.item.index - 2]);
 });
 
+
+$("#bugurToggle").click(function () {
+    $(this).toggleClass("active");
+})
