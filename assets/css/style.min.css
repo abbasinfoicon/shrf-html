@@ -854,6 +854,7 @@ section {
 @media (max-width: 767px) {
   .home-content .content .item .content-caption .animated-img {
     direction: ltr;
+    margin-bottom: 30px;
   }
 }
 
