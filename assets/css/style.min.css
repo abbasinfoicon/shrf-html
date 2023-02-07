@@ -71,7 +71,7 @@ body {
 
 @media (max-width: 1024px) {
   body {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
@@ -241,22 +241,6 @@ section {
   }
 }
 
-@media (max-width: 991px) {
-
-  section,
-  .py-70 {
-    padding: 70px 0;
-  }
-}
-
-@media (max-width: 767px) {
-
-  section,
-  .py-70 {
-    padding: 30px 0;
-  }
-}
-
 .px-50 {
   padding-left: 50px;
   padding-right: 50px;
@@ -269,7 +253,7 @@ section {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .px-50 {
     padding-left: 15px;
     padding-right: 15px;
@@ -288,10 +272,10 @@ section {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .px-60 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -341,7 +325,7 @@ section {
 
 @media (max-width: 1024px) {
   .patient-stories {
-    padding: 70px 10px;
+    padding: 70px 0;
   }
 }
 
@@ -375,13 +359,13 @@ section {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .logo-sec {
     padding: 15px;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 767px) {
   .logo-sec {
     padding: 15px 0;
   }
@@ -595,7 +579,7 @@ section {
 
 @media (max-width: 1024px) {
   .footer {
-    padding: 70px 30px 20px;
+    padding: 70px 0 20px;
   }
 }
 
@@ -788,6 +772,12 @@ section {
   padding-right: 30px;
 }
 
+@media (max-width: 1024px) {
+  .pr-30 {
+    padding-right: 15px;
+  }
+}
+
 .home-slider {
   padding: 0;
 }
@@ -814,19 +804,13 @@ section {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   .home-content .content .item .content-caption {
-    padding: 30px;
+    padding: 30px 0;
   }
 }
 
 @media (max-width: 767px) {
-  .home-content .content .item .content-caption {
-    padding: 15px;
-  }
-}
-
-@media (max-width: 550px) {
   .home-content .content .item .content-caption {
     padding: 15px 0;
   }
@@ -847,28 +831,26 @@ section {
 .home-content .content .item .content-caption .animated-img {
   text-align: right;
   position: relative;
+  margin-bottom: 25px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .home-content .content .item .content-caption .animated-img {
     direction: ltr;
     margin-bottom: 30px;
   }
 }
 
-.home-content .content .item .content-caption .animated-img img {
-}
+.home-content .content .item .content-caption .animated-img img {position: relative;right: 25px;top: 25px;}
 
 .home-content .content .item .content-caption .animated-img img.img-text {
   position: absolute;
-  top: -25px;
-  right: -25px;
+  top: 0;
+  right: 0;
 }
 
 @media (max-width: 767px) {
   .home-content .content .item .content-caption .animated-img img.img-text {
-    top: -18px;
-    right: -18px;
   }
 }
 
@@ -1138,7 +1120,7 @@ p span {
 
 @media (max-width: 1024px) {
   .partner-img .img-style {
-    width: 100%;
+    width: 48%;
   }
 }
 
@@ -1165,6 +1147,12 @@ p span {
   }
 }
 
+@media (max-width: 1024px) {
+  .corporate-partnership {
+    padding-right: 120px !important;
+  }
+}
+
 @media (max-width: 600px) {
   .corporate-partnership {
     padding-right: 30px !important;
@@ -1188,6 +1176,12 @@ p span {
 @media (max-width: 1440px) {
   .corporate-partnership img.img-left {
     width: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .corporate-partnership img.img-left {
+    width: 130px;
   }
 }
 
@@ -1230,14 +1224,14 @@ img.img-left {}
 @media (max-width: 1440px) {
   .get-involved {
     margin: 0;
-    padding: 170px 0;
+    padding: 200px 0;
   }
 }
 
 @media (max-width: 1024px) {
   .get-involved {
     margin: 0;
-    padding: 140px 0;
+    padding: 70px 0;
   }
 }
 
@@ -1277,6 +1271,12 @@ img.img-left {}
 @media (max-width: 1440px) {
   .left-involved {
     padding-left: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .left-involved {
+    padding-left: 20px;
   }
 }
 
@@ -1354,6 +1354,7 @@ img.img-left {}
   .custom-background {
     top: -70px;
     bottom: -70px;
+    width: 58%;
   }
 }
 
@@ -1458,7 +1459,7 @@ img.img-left {}
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .patient-carousel .owl-nav button img {
     width: 30px;
   }
@@ -1479,18 +1480,24 @@ img.img-left {}
 @media (max-width: 1024px) {
   .our-impact {
     margin-top: 70px;
-    margin-bottom: 170px;
+    margin-bottom: 140px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .our-impact {
-    margin-bottom: 30px;
+    margin-top: 0;
   }
 }
 
 .our-impact .title {
   margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .our-impact .title {
+    margin-bottom: 100px;
+  }
 }
 
 .count-impact {
@@ -1571,13 +1578,6 @@ img.img-left {}
   .custom-bgRight {
     top: -70px;
     bottom: -70px;
-  }
-}
-
-@media (max-width: 991px) {
-  .custom-bgRight {
-    top: -30px;
-    bottom: -30px;
   }
 }
 
@@ -1701,6 +1701,13 @@ img.img-left {}
   }
 }
 
+@media (max-width: 1440px) {
+  .row-gap-24 {
+    row-gap: 30px;
+    padding: 0;
+  }
+}
+
 .our-areas .row-gap-24 {}
 
 .our-areas .row-gap-24 .col-lg-4.col-md-6 {
@@ -1735,7 +1742,7 @@ img.img-left {}
 
 @media (max-width: 1024px) {
   .stay-up {
-    padding: 70px 30px 30px;
+    padding: 70px 0 30px;
   }
 }
 
@@ -1753,10 +1760,11 @@ img.img-left {}
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1024px) {
   .home-content {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
   }
 }
 
@@ -1785,4 +1793,8 @@ img.img-left {}
   75% {
     transform: rotate(-90deg)
   }
+}
+.patient-carousel .item .img-sec img {
+  height: 100%;
+  object-fit: cover;
 }
