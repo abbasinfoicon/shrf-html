@@ -869,7 +869,7 @@ section {
 
 @media (max-width: 767px) {
   .home-content .content .item .content-caption .animated-img img.img-text {
-    top: 42px;
+    top: -18px;
     right: -18px;
   }
 }
